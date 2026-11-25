@@ -1,0 +1,14 @@
+# Versions used for the experiments reported in the paper (tested on Python 3.14.3, Windows 11)
+numpy==2.5.1
+pandas==3.1.1
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.54.1
+streamlit==1.66.1
+plotly==7.1.0
+pyarrow==26.0.1
+joblib==1.6.0
+openpyxl==3.1.5
+matplotlib==3.11.2
+pytest==9.1.1

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "ImputeAudit: missingness mechanisms and class-wise SHAP stability in tabular classification"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+authors:
+  - family-names: Singh
+    given-names: Arjit
+    affiliation: "Department of Computer Science and Engineering, Maharaja Agrasen Institute of Technology, Delhi, India"
+keywords:
+  - missing data
+  - imputation
+  - SHAP
+  - explainable AI
+  - explanation stability
+  - multiclass classification

@@ -1,0 +1,7 @@
+Dataset,Model,Global $\tau$,Mean class $\tau$,Worst class $\tau$,$\Delta$,Concealed
+Dry Bean,RF,0.845,0.822,0.732,0.023,50%
+Dry Bean,XGB,0.903,0.874,0.789,0.030,80%
+Pen-Digits,RF,0.860,0.887,0.797,-0.027,100%
+Satimage,RF,0.809,0.796,0.739,0.013,30%
+Letter,RF,0.947,0.929,0.840,0.018,10%
+HTRU2,RF,0.964,0.964,0.964,0.000,0%

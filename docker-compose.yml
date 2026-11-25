@@ -1,0 +1,12 @@
+services:
+  imputeaudit:
+    build: .
+    ports: ["8501:8501"]
+    environment:
+      IMPUTEAUDIT_MAX_UPLOAD_MB: ${IMPUTEAUDIT_MAX_UPLOAD_MB:-50}
+      IMPUTEAUDIT_MAX_ROWS: ${IMPUTEAUDIT_MAX_ROWS:-200000}
+      IMPUTEAUDIT_STORE_RAW_UPLOADS: ${IMPUTEAUDIT_STORE_RAW_UPLOADS:-false}
+    volumes:
+      - ./runs:/app/runs
+      - ./logs:/app/logs
+    restart: unless-stopped
